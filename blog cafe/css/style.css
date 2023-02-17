@@ -47,7 +47,7 @@ h4 {
 img {
     max-width: 100%;
 }
-/** Utilidades **/
+
 .no-margin {
     margin: 0;
 }
@@ -58,7 +58,7 @@ img {
     text-align: center;
 }
 
-/** Header **/
+
 .webp .header {
     background-image: url(../img/banner.webp);
 }
