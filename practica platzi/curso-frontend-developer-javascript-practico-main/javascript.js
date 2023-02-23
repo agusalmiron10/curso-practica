@@ -7,10 +7,6 @@ function ToggleDesktop(){
     DestokpMenu.classList.toggle('inactive')
 }
 
-
-
-    
-
 const Hamburguesa=document.querySelector('.menu')
 const mobilemenu=document.querySelector('.mobile-menu')
 
@@ -21,9 +17,6 @@ const mobilemenu=document.querySelector('.mobile-menu')
     mobilemenu.classList.toggle('inactive');
  }
 
-
-
-
  const menucarritoicon=document.querySelector('.navbar-shopping-cart');
  const aside=document.querySelector('.product-detail');
 
@@ -33,3 +26,6 @@ const mobilemenu=document.querySelector('.mobile-menu')
  function toggleaside(){
     aside.classList.toggle('inactive');
  }
+
+
+ 

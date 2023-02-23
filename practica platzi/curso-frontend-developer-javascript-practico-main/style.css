@@ -22,6 +22,7 @@
   .inactive{
     display: none;
   }
+  
 
   .menu {
     display: none;
@@ -29,6 +30,7 @@
   .logo {
     width: 100px;
   }
+  
   .navbar-left ul,
   .navbar-right ul {
     list-style: none;
@@ -124,7 +126,7 @@
     box-sizing: border-box;
     position: absolute;
     right: 0;
-    cursor: pointer;
+    
   }
   .title-container {
     display: flex;
