@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="hola.css">
+    </head>
+    <body>
+        
+    <main>
+
+       
+        <div class="container__login">
+            <img class='login__logoea' src="https://www.jdperon.gov.ar/wp-content/uploads/Logo_Ejercito.jpg" alt="logo ejercito argentino" />
+            <h2 class='login__title'>iniciar sesion</h2>
+            <form id="login_form" className='login'>
+                    
+                <label hidden htmlFor="username">Usuario</label>
+                <input class='login__user' type="text" name="username" id="username" placeholder="Usuario"/>
+                <i class='login__border'></i>
+               
+                <label hidden htmlFor="password">Contraseña</label>
+                <input class='login__pass' type="password" name="password" id="password" placeholder="Contraseña"/>
+                <i class='login__border'></i>
+                <button class='login__btn' type="submit" id="submit">Iniciar sesión</button>
+            </form>
+        </div>
+    </main>
+    </body>
+    <script src="react.js"></script>
+</html>

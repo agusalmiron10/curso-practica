@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    
+
+}
+
+.container__login{ 
+    position: relative;
+    margin: auto;
+    margin-top: 180px;
+    width: 380px;
+    height: 420px;
+    background: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.container__login::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    transform-origin: bottom right;
+}
+
+
+
+.login{
+    position: relative;
+    background-color: #1c1c1c;
+}
+
+.login__logoea{
+    display: block;
+    margin: 25px auto;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.login__title{
+    position: relative;
+    top: -5px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+
+.login input,
+.login input:focus
+{
+    background: transparent;
+    outline: none;
+    border: none;
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+
+}
+
+
+.login__user,
+.login__pass{
+    display: block;
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 25px;
+}
+
+
+
+
+.login__label-user,
+.login__label-pass{
+    display: none;
+    position: absolute;
+    color: #555;
+    font-family: 'Rubik',sans-serif;
+    font-size: 13px;
+    left: 85.5px;
+  
+}
+
+.login__border{
+    position: absolute;
+    background: #359ace;
+    display: block;
+    margin: 0 85.5px;
+    width: 55%;
+    height: 2px;
+    border-radius: 5px;
+}
+
+.login__btn{
+    display: block;
+    margin: 32px auto;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    width: 180px;
+    height: 35px;
+    border-radius: 6px;
+    font-family: 'Rubik', sans-serif;
+    color: #1c1c1c;
+    transition: all .1s;
+}
+
+.login__btn:hover{
+    background-color: #111;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
+@media only screen
+and (max-width: 400px){
+    .container__login{
+        scale: 0.75;
+        margin-top: 50%;
+    }
+}
